@@ -1,0 +1,57 @@
+.ses{
+
+}
+.ses > h1{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+}
+.sestext{
+    background:url('./../../assets/sess.jpeg') ;
+    background-size:100%;
+    
+    background-position: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 60vh ;
+    padding: 2%;
+    position: relative;
+
+}
+.sestext p{
+    font-size:20px;
+}
+.sesunder{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(240, 255, 255, 0.4  ); /* Adjust the last value (0.6) for transparency */
+    border-radius: 9px;
+    color: orangered;
+    text-align: center;
+    padding: 2%;
+    transform: translate(-50%, -50%);
+    
+}
+.ses1{
+    padding: 2%;
+}
+.ses1con{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.ses1item{
+    border: 5px solid orangered;
+    color: blue;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 30px;
+    padding: 1%;
+    border-radius: 10 px;
+}

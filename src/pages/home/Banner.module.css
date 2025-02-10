@@ -1,0 +1,35 @@
+.nav2con{
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+.main h1{
+    font-size: 250%;
+    color:orangered;
+}
+.main >h4{
+    font-size: 130%;
+    margin-top: 10px;
+}
+.main > h4 span{
+    color: blue;
+}
+.main p{
+    margin-top: 10px;
+}
+
+.detcon span{
+    font-size: 120%;
+}
+.ban{
+    width: 100%;
+    height: 100%;
+   
+
+}
+.ban img{
+    width: 100%;
+    border-radius: 10px;
+}

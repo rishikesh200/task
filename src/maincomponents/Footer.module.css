@@ -1,0 +1,46 @@
+.foot{
+    display: flex;
+    /* background: url('./../assets/v915-wit-011-l.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat; */
+    height: 50vh;
+    background-color: rgb(29, 29, 104);
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.f1{
+
+width: 30%;
+display: flex;
+flex-direction: column;
+padding: 10px;
+align-items: center;
+gap: 20px;
+}
+.f1 img{
+    width: 180px;
+}
+.f1 p{
+    color: white;
+    width: 80%;
+}
+.f2{
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.f2 h1{
+    color: orangered;
+   
+    font-size: 25px;
+    text-align: center;
+    width: fit-content;
+}
+.f2 p{
+    color: white;
+}

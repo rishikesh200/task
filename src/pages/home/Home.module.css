@@ -1,0 +1,118 @@
+.welcome{
+    padding: 30px;
+    position: relative;
+    background-image: url('./../../assets/welcome.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.welcome h1{
+    font-size: 250%;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    color: white;
+}
+.welcome p{
+    font-size: 130%;
+   position: relative;
+   color: white;
+   text-align: center;
+}
+.about{
+   padding:  30px;
+}
+.about h1{
+    font-size: 250%;
+    text-align: center;
+    margin: 30px auto;
+    color: orangered;
+}
+.about p{
+    font-size: 130%;
+   
+}
+.theme{
+
+}
+.themecon{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
+.themecon img{
+    width: 20%;
+    margin: 30px;
+    border-radius: 5px;
+}
+.theme h1{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+}
+.theme h2{
+    color: orangered;
+    margin: 20px 30px;
+    font-size: 170%;
+
+}
+.theme p{
+    margin: 0 30px;
+    margin-bottom: 20px;
+    font-size: 120%;
+}
+.key{
+    padding: 20px;
+}
+.key h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.maincon{
+    display: flex;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.con{
+    width:  calc(25% - 40px);
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4%;
+    background-color: rgb(157, 179, 197);
+}
+.con h3{
+    text-align: center;
+    color: blue;
+}
+.con p{
+    text-align: center;
+}
+.sub{
+   
+}
+.sub h1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.subcon{
+    /* background: url('./../../assets/dead.jpg');
+   
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat; */
+    height: 50vh;
+    padding: 2%;
+    display: flex;
+    gap: 20px;
+}
+.subcon img{
+    width: 30%;
+    border-radius: 10px;
+}
