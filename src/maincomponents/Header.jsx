@@ -39,10 +39,16 @@ export const Header = () => {
         </div>
         
     </div>
+  
     <div className={styles.navbarmain}>
         <NavLink  to="/" className={styles.logocon}>
             <img src={logo} alt="" />
         </NavLink>
+        <div className={styles.ba}>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
         <ul className={styles.navcon}>
           
             <li>

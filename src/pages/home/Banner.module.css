@@ -33,3 +33,13 @@
     width: 100%;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    .main h1{
+        font-size: 170%;
+        color:orangered;
+    }
+    .ban{
+        display: none;
+    }
+}

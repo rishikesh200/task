@@ -44,3 +44,13 @@ gap: 20px;
 .f2 p{
     color: white;
 }
+@media (max-width: 768px) {
+    .foot{
+        flex-direction: column;
+        font-size: smaller;
+        height: unset;
+    }
+    .f1,.f2,.f3{
+        width: 100%;
+    }
+}

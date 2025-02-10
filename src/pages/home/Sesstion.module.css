@@ -53,5 +53,15 @@
     height: 100px;
     margin-bottom: 30px;
     padding: 1%;
-    border-radius: 10 px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .sestext p{
+        font-size: 10px;
+    }
+    .ses1 > h1{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 }

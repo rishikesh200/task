@@ -65,3 +65,33 @@ span.loginbtn{
     
     
 }
+.ba{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 3px;
+    margin-right: 20px;
+    /* border: 1px solid orangered; */
+    display: none;
+}
+.ba span{
+    width:  20px;
+    height: 2px;
+    background-color: orangered;
+
+}
+.ba span:hover{
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar2{
+        display: none;
+    }
+    .navcon{
+        display: none;
+    }
+    .ba{
+        display: flex;
+    }
+}
